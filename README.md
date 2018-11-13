@@ -1,7 +1,7 @@
 
 # HomeAway Prototype
 
-This application is an adaptation of a three-tier online marketplace and hospitality service architecture such as 'HomeAway' using open-source technologies. It makes use of MERN stack web-development to enhance request handling performance and makes use of messaging service such as Kafka.
+This application is an adaptation of a three-tier online hospitality service architecture such as 'HomeAway' using open-source technologies. It makes use of MERN stack web-development to enhance request handling performance and makes use of messaging service such as Kafka.
 
 This is a completely RESTful API based application and makes use of HTTP protocol.The back-end of this application is built using Node Javascript. The database used is No-SQL which helps in storing product metadata and helps improving scalability of the architecture.
 
