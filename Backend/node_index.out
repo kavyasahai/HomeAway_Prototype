@@ -1,0 +1,1478 @@
+producer ready
+Server Listening on port 3001
+(node:10010) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+Connected to MongoDB
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+1
+returning next
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 21 } }
+client ready!
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 4 } }
+msg received
+response Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjY4NjIsImV4cCI6MTU0MTgyNjg2Mn0.1RWF9Y05CBZ1LhezsxI4gy9KuB3KJ1wlw38PlXpevj4
+In result of LOGIN
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjY4NjIsImV4cCI6MTU0MTgyNjg2Mn0.1RWF9Y05CBZ1LhezsxI4gy9KuB3KJ1wlw38PlXpevj4
+Inside else:  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjY4NjIsImV4cCI6MTU0MTgyNjg2Mn0.1RWF9Y05CBZ1LhezsxI4gy9KuB3KJ1wlw38PlXpevj4"
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 22 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": ""
+}
+
+INSIDE PROFILE PHOTO POST
+Connection Successful
+Profile photo updated { _id: 5bdcd2e9b83ff3b1d4861d75,
+  fname: 'Kavya',
+  lname: 'Sahai',
+  email: 'kavyamohan.sahai@sjsu.edu',
+  password: '$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u',
+  abt: 'I am 22 years old ',
+  city_cntry: 'India',
+  company: '',
+  school: 'SJSU',
+  hometown: '',
+  languages: '',
+  gender: '',
+  phone: null,
+  photoname: '',
+  typeofaccount: 'traveler',
+  __v: 0 }
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 23 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 24 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am 22 years old ",
+  "city_cntry": "India",
+  "company": "",
+  "school": "SJSU",
+  "hometown": "",
+  "languages": "",
+  "gender": "",
+  "phone": null,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Profile POST Request
+Req Body :  { email: 'kavyamohan.sahai@sjsu.edu',
+  fname: 'Kavya',
+  lname: 'Sahai',
+  abt: 'I am Kavya.\nI\'m currently in my first year of Grad School. ',
+  city_cntry: 'India',
+  company: 'SJSU',
+  school: 'SJSU',
+  hometown: 'Jaipur',
+  languages: 'English, Hindi, French',
+  gender: 'female',
+  phone: '999888777' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu',
+  fname: 'Kavya',
+  lname: 'Sahai',
+  abt: 'I am Kavya.\nI\'m currently in my first year of Grad School. ',
+  city_cntry: 'India',
+  company: 'SJSU',
+  school: 'SJSU',
+  hometown: 'Jaipur',
+  languages: 'English, Hindi, French',
+  gender: 'female',
+  phone: '999888777' }
+in response
+in response1
+true
+in response2
+{ post_profile: { '0': 2 } }
+msg received
+response { _id: '5bdcd2e9b83ff3b1d4861d75',
+  fname: 'Kavya',
+  lname: 'Sahai',
+  email: 'kavyamohan.sahai@sjsu.edu',
+  password: '$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u',
+  abt: 'I am 22 years old ',
+  city_cntry: 'India',
+  company: '',
+  school: 'SJSU',
+  hometown: '',
+  languages: '',
+  gender: '',
+  phone: null,
+  photoname: 'a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG',
+  typeofaccount: 'traveler',
+  __v: 0 }
+In Profile Book result :
+{ _id: '5bdcd2e9b83ff3b1d4861d75',
+  fname: 'Kavya',
+  lname: 'Sahai',
+  email: 'kavyamohan.sahai@sjsu.edu',
+  password: '$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u',
+  abt: 'I am 22 years old ',
+  city_cntry: 'India',
+  company: '',
+  school: 'SJSU',
+  hometown: '',
+  languages: '',
+  gender: '',
+  phone: null,
+  photoname: 'a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG',
+  typeofaccount: 'traveler',
+  __v: 0 }
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 25 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 26 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in response2
+{ get_home: { '0': 27 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Dashboard GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in response
+in response1
+true
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 28 } }
+in response2
+{ get_dashboard: { '0': 2 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+msg received
+response []
+In result
+[]
+Inside else
+Inside Dashboard GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in response
+in response1
+true
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in response2
+{ get_dashboard: { '0': 3 } }
+in response2
+{ get_home: { '0': 29 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside else
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Dashboard GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in response
+in response1
+true
+in response2
+{ get_dashboard: { '0': 4 } }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 30 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside else
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Dashboard GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu',
+  typeofaccount: 'traveler' }
+in response
+in response1
+true
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_dashboard: { '0': 5 } }
+in response2
+{ get_home: { '0': 31 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside else
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 32 } }
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Search GET request
+Req body:  { where: 'india',
+  startdate: '2018-11-03',
+  enddate: '2018-11-06',
+  guests: '1' }
+in make request
+{ where: 'india',
+  startdate: '2018-11-03',
+  enddate: '2018-11-06',
+  guests: '1' }
+in response
+in response1
+true
+in response2
+{ get_searchresults: { '0': 0 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside else
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 5 } }
+msg received
+response Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjk0NjgsImV4cCI6MTU0MTgyOTQ2OH0.8qhd1CHGACPcWRdsj9HkEkejNxtKZ-dfRrskMZSjIHw
+In result of LOGIN
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjk0NjgsImV4cCI6MTU0MTgyOTQ2OH0.8qhd1CHGACPcWRdsj9HkEkejNxtKZ-dfRrskMZSjIHw
+Inside else:  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdnlhbW9oYW4uc2FoYWlAc2pzdS5lZHUiLCJpYXQiOjE1NDEyMjk0NjgsImV4cCI6MTU0MTgyOTQ2OH0.8qhd1CHGACPcWRdsj9HkEkejNxtKZ-dfRrskMZSjIHw"
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 33 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 34 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Inbox GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_inbox: { '0': 0 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside INBOX else
+INBOX results:  []
+Inside Inbox GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in response2
+{ get_inbox: { '0': 1 } }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 35 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response []
+In result
+[]
+Inside INBOX else
+INBOX results:  []
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside Profilezzzz photo GET request
+req body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+Inside Home GET request
+Request body:  { email: 'kavyamohan.sahai@sjsu.edu' }
+in make request
+{ email: 'kavyamohan.sahai@sjsu.edu' }
+in response
+in response1
+true
+in response2
+{ get_home: { '0': 36 } }
+Documents fetched from MongoDB: 
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG"
+}
+a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File-name:  a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+File path:  /home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/images/a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG
+msg received
+response {
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+In result
+{
+  "_id": "5bdcd2e9b83ff3b1d4861d75",
+  "fname": "Kavya",
+  "lname": "Sahai",
+  "email": "kavyamohan.sahai@sjsu.edu",
+  "password": "$2b$10$m2caB3DNoO6IrHQeuAm0sex5TQ7mZc8HVFD73RdNnhD9zJND5ki0u",
+  "abt": "I am Kavya.\nI'm currently in my first year of Grad School. ",
+  "city_cntry": "India",
+  "company": "SJSU",
+  "school": "SJSU",
+  "hometown": "Jaipur",
+  "languages": "English, Hindi, French",
+  "gender": "female",
+  "phone": 999888777,
+  "photoname": "a6636675-3ac7-4302-9df7-b4fb22fc67ec.JPEG",
+  "typeofaccount": "traveler",
+  "__v": 0
+}
+Inside else
+Inside SignUp POST Request
+Req Body :  { email: 'vsnlbaveja@gmail.com',
+  password: 'Kavya1234',
+  fname: 'Vivek',
+  lname: 'Baveja',
+  typeofaccount: 'owner' }
+in make request
+{ email: 'vsnlbaveja@gmail.com',
+  password: 'Kavya1234',
+  fname: 'Vivek',
+  lname: 'Baveja',
+  typeofaccount: 'owner' }
+in response
+in response1
+true
+in response2
+{ post_signup: { '0': 0 } }
+msg received
+response { __v: 0,
+  fname: 'Vivek',
+  lname: 'Baveja',
+  email: 'vsnlbaveja@gmail.com',
+  password: '$2b$10$mI0CYESGjNhtO9x/uUrf3eYwED8EJPygpaLNSXtcG35wPF0KqpTnK',
+  abt: '',
+  city_cntry: '',
+  company: '',
+  school: '',
+  hometown: '',
+  languages: '',
+  gender: '',
+  phone: null,
+  photoname: '',
+  typeofaccount: 'owner',
+  _id: '5bdd4d71e08439273d692463' }
+In SIGNUP result :
+{ __v: 0,
+  fname: 'Vivek',
+  lname: 'Baveja',
+  email: 'vsnlbaveja@gmail.com',
+  password: '$2b$10$mI0CYESGjNhtO9x/uUrf3eYwED8EJPygpaLNSXtcG35wPF0KqpTnK',
+  abt: '',
+  city_cntry: '',
+  company: '',
+  school: '',
+  hometown: '',
+  languages: '',
+  gender: '',
+  phone: null,
+  photoname: '',
+  typeofaccount: 'owner',
+  _id: '5bdd4d71e08439273d692463' }
+Inside else
+in make request
+{ email: 'vsnlbaveja@gmail.com', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 6 } }
+timeout
+Error: timeout 7c087d30f5e947b4bf310429beb4312b
+    at Timeout._onTimeout (/home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/kafka/kafkarpc.js:28:18)
+    at ontimeout (timers.js:486:15)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+in make request
+{ email: 'vsnlbaveja@gmail.com', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 7 } }
+timeout
+Error: timeout 614900f6bc6168357c9f8c932d6c1869
+    at Timeout._onTimeout (/home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/kafka/kafkarpc.js:28:18)
+    at ontimeout (timers.js:486:15)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+in make request
+{ email: 'vsnlbaveja@gmail.com', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 8 } }
+timeout
+Error: timeout 3c95881464782aee72c4579d95785f8f
+    at Timeout._onTimeout (/home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/kafka/kafkarpc.js:28:18)
+    at ontimeout (timers.js:486:15)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+in make request
+{ email: 'vsnlbaveja@gmail.com', password: 'Kavya1234' }
+in response
+in response1
+true
+in response2
+{ post_login: { '0': 9 } }
+timeout
+Error: timeout a081d7d3a82f7452447ee5624c933bf3
+    at Timeout._onTimeout (/home/ubuntu/CMPE273-57/Lab2 - 012565072/HomeAway/Backend/kafka/kafkarpc.js:28:18)
+    at ontimeout (timers.js:486:15)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
